@@ -1,0 +1,408 @@
+Windows Registry Editor Version 5.00
+
+;Disable advertising identification and information
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+
+;Disable transmission of typing information
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\input\TIPC]
+"Enabled"=dword:00000000
+
+;Disable suggestions in timeline
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-353698Enabled"=dword:00000000
+
+;Disable suggestions in start
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338388Enabled"=dword:00000000
+
+;Disable tips, tricks, and suggestions when using Windows
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338389Enabled"=dword:00000000
+
+;Disble showing suggested content in settings app
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338393Enabled"=dword:00000000
+"SubscribedContent-353694Enabled"=dword:00000000
+"SubscribedContent-353696Enabled"=dword:00000000
+
+;Disable the possibility of suggesting to finish the setup of the device
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\UserProfileEngagement]
+"ScoobeSystemSettingEnabled"=dword:00000000
+
+;Disable storage of clipboard history
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Clipboard]
+"EnableClipboardHistory"=dword:00000000
+
+;Disable app access to user account information
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation]
+"Value"="Deny"
+
+;Disable Windows tracking of app starts
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_TrackProgs"=dword:00000000
+
+;Disable app access to diagnostic information
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appDiagnostics]
+"Value"="Deny"
+
+;Enable do not track (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"ConfigureDoNotTrack"=dword:00000001
+
+;Disable check for saved payment methods by sites (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"PaymentMethodQueryEnabled"=dword:00000000
+
+;Disable personalizing advertising, search, news and other services (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"PersonalizationReportingEnabled"=dword:00000000
+
+;Disable automatic completion of web addresses in address bar (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+
+;Disable user feedback in toolbar (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"UserFeedbackAllowed"=dword:00000000
+
+;Disable storing and autocompleting of credit card data on websites (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"AutofillCreditCardEnabled"=dword:00000000
+
+;Disable form suggestions (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"AutofillAddressEnabled"=dword:00000000
+
+;Disable suggestions from local providers (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"LocalProvidersEnabled"=dword:00000000
+
+;Disable search and website suggestions (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"SearchSuggestEnabled"=dword:00000000
+
+;Disable shopping assistant (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"EdgeShoppingAssistantEnabled"=dword:00000000
+
+;Disable side bar (Chromium Edge)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge]
+"WebWidgetAllowed"=dword:00000000
+"HubsSidebarEnabled"=dword:00000000
+
+;Enable do not track (Legacy Edge)
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Main]
+"DoNotTrack"=dword:00000001
+
+;Disable page prediction (Legacy Edge)
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\FlipAhead]
+"FPEnabled"=dword:00000000
+
+;Disable search and website suggestions (Legacy Edge)
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Main]
+"ShowSearchSuggestionsGlobal"=dword:00000000
+
+;Disable Cortana in Edge (Legacy Edge)
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\ServiceUI]
+"EnableCortana"=dword:00000000
+
+;Disable showing search history (Legacy Edge)
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\ServiceUI\ShowSearchHistory]
+@=dword:00000000
+
+;Disable sync of all settings
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync]
+"SyncPolicy"=dword:00000005
+
+;Disable sync of design settings
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Personalization]
+"Enabled"=dword:00000000
+
+;Disable sync of browser settings
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\BrowserSettings]
+"Enabled"=dword:00000000
+
+;Disable sync of credentials
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Credentials]
+"Enabled"=dword:00000000
+
+;Disable sync of language settings
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Language]
+"Enabled"=dword:00000000
+
+;Disable sync of accessibility settings
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Accessibility]
+"Enabled"=dword:00000000
+
+;Disable sync of advanced Windows settings
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Windows]
+"Enabled"=dword:00000000
+
+;Disable and reset Cortana
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Windows Search]
+"CortanaConsent"=dword:00000000
+
+;Disable input Personalization
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings]
+"AcceptedPrivacyPolicy"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization]
+"RestrictImplicitInkCollection"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization]
+"RestrictImplicitTextCollection"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore]
+"HarvestContacts"=dword:00000000
+
+;Disable the use of diagnostic data for a tailor-made user experience
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Privacy]
+"TailoredExperiencesWithDiagnosticDataEnabled"=dword:00000000
+
+;Disable occasionally showing app suggestions in start menu
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SystemPaneSuggestionsEnabled"=dword:00000000
+
+;Disable Windows spotlight
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"RotatingLockScreenEnabled"=dword:00000000
+
+;Disable fun facts, tips, tricks and more on your lock screen
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"RotatingLockScreenOverlayEnabled"=dword:00000000
+"SubscribedContent-338387Enabled"=dword:00000000
+
+;Disable notifications on lock screen
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Notifications\Settings]
+"NOC_GLOBAL_SETTING_ALLOW_TOASTS_ABOVE_LOCK"=dword:00000000
+
+;Disable feedback reminders
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+"PeriodInNanoSeconds"=dword:00000000
+
+;Disable automatic installation of recommended Windows Store Apps
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SilentInstalledAppsEnabled"=dword:00000000
+
+;Disable tips, tricks and suggestions while using Windows
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SoftLandingEnabled"=dword:00000000
+
+;Disable Windows Media Player diagnostics
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"UsageTracking"=dword:00000000
+
+;Disable sharing of handwriting data
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TabletPC]
+"PreventHandwritingDataSharing"=dword:00000001
+
+;Disable sharing of handwriting error reports
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\HandwritingErrorReports]
+"PreventHandwritingErrorReports"=dword:00000001
+
+;Disable inventory collector
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"DisableInventory"=dword:00000001
+
+;Disable camera in logon screen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreenCamera"=dword:00000001
+
+;Disable advertising identification and information
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+
+;Disable advertisements via bluetooth
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Bluetooth]
+"AllowAdvertising"=dword:00000000
+
+;Disable Windows Customer Experience Improvement Program
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SQMClient\Windows]
+"CEIPEnable"=dword:00000000
+
+;Disable backup of text messages into the cloud
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Messaging]
+"AllowMessageSync"=dword:00000000
+
+;Disable Windows Error Reporting
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+
+;Disable recordings of user activity
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableActivityFeed"=dword:00000000
+
+;Disable storing users activity history
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"PublishUserActivities"=dword:00000000
+
+;Disable submission of user activities to Microsoft
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"UploadUserActivities"=dword:00000000
+
+;Disable storage of clipboard history for whole machine
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"AllowClipboardHistory"=dword:00000000
+
+;Disable the transfer of the clipboard to other devices via the cloud
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"AllowCrossDeviceClipboard"=dword:00000000
+
+;Disable app access to user account information
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\userAccountInformation]
+"Value"="Deny"
+
+;Disable app access to diagnostics information
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appDiagnostics]
+"Value"="Deny"
+
+;Disable password reveal button
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CredUI]
+"DisablePasswordReveal"=dword:00000001
+
+;Disable user steps recorder
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"DisableUAR"=dword:00000001
+
+;Disable telemetry
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\DiagTrack]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\dmwappushservice]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\WMI\Autologger\AutoLogger-Diagtrack-Listener]
+"Start"=dword:00000000
+
+;Enable do not track (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"ConfigureDoNotTrack"=dword:00000001
+
+;Disable check for saved payment methods by sites (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"PaymentMethodQueryEnabled"=dword:00000000
+
+;Disable personalizing advertising, search, news and other services (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"PersonalizationReportingEnabled"=dword:00000000
+
+;Disable automatic completion for web addresses in address bar (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+
+;Disable user feedback in toolbar (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"UserFeedbackAllowed"=dword:00000000
+
+;Disable storing and autocompleting of credit card data on websites (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AutofillCreditCardEnabled"=dword:00000000
+
+;Disable form suggestions (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AutofillAddressEnabled"=dword:00000000
+
+;Disable suggestions from local providers (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"LocalProvidersEnabled"=dword:00000000
+
+;Disable search and website suggestions (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"SearchSuggestEnabled"=dword:00000000
+
+;Disable shopping assistant (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"EdgeShoppingAssistantEnabled"=dword:00000000
+
+;Disable sidebar (Chromium Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"WebWidgetAllowed"=dword:00000000
+"HubsSidebarEnabled"=dword:00000000
+
+;Disable automatic completion of web addresses in address bar (Legacy Edge)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Browser]
+"AllowAddressBarDropdown"=dword:00000000
+
+;Disable user feedback in toolbar
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"UserFeedbackAllowed"=dword:00000000
+
+;Disable storing and autocompleting of credit card data on websites
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"AutofillCreditCardEnabled"=dword:00000000
+
+;Disable online speech recognition
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\InputPersonalization]
+"AllowInputPersonalization"=dword:00000000
+
+;Cortana and search are disallowed to use location
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowSearchToUseLocation"=dword:00000000
+
+;Disable web search from Windows desktop search
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"DisableWebSearch"=dword:00000001
+
+;Disable display web results in search
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"ConnectedSearchUseWeb"=dword:00000000
+
+;Disable download and updates of speech recognition and speech synthesis models
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Preferences]
+"ModelDownloadAllowed"=dword:00000000
+
+;Disable cloud search
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCloudSearch"=dword:00000000
+
+;Disable Cortana above lock screen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortanaAboveLock"=dword:00000000
+
+;Disable functionality to locate the system
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
+"DisableLocation"=dword:00000001
+"DisableWindowsLocationProvider"=dword:00000001
+"DisableLocationScripting"=dword:00000001
+
+;Disable application telemetry
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"AITEnable"=dword:00000000
+
+;Disable diagnostic data from customizing user experiences for whole machine
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Privacy]
+"TailoredExperiencesWithDiagnosticDataEnabled"=dword:00000000
+
+;Disable diagnostic log collection
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"LimitDiagnosticLogCollection"=dword:00000001
+
+;Disable downloading of OneSettings configuration settings
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"DisableOneSettingsDownloads"=dword:00000001
+
+;Disable Windows Update via peer-to-peer
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
+"DODownloadMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization]
+"DODownloadMode"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization]
+"SystemSettingsDownloadMode"=dword:00000000
+
+;Disable updates to the speech recognition and speech synthesis modules
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Speech]
+"AllowSpeechModelUpdate"=dword:00000000
+
+;Disable feedback reminders
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"DoNotShowFeedbackNotifications"=dword:00000001
